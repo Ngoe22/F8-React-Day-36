@@ -1,0 +1,63 @@
+.postDetail {
+    margin: 20px;
+    padding: 5px;
+}
+
+.post {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+
+    &Title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &Id {
+        font-size: 1.6rem;
+        color: #ff8750;
+
+        &::before {
+            content: "  #";
+        }
+    }
+
+    &Body {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.2;
+    }
+}
+
+.comments {
+    padding: 0;
+    list-style-type: none;
+}
+
+.comment {
+    border-left: 1px solid #5da8da;
+    padding: 5px 0 5px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(117, 198, 247, 0.1);
+
+    &Name {
+        font-size: 16px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    &Email {
+        font-size: 14px;
+        color: #848484;
+        font-style: italic;
+    }
+
+    &Body {
+        margin-top: 12px;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.2;
+        font-size: 1.5rem;
+    }
+}
